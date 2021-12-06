@@ -1,0 +1,40 @@
+{
+    "project_info": {
+        "project_number": "888027101875",
+        "project_id": "alctraz-eaf23",
+        "storage_bucket": "alctraz-eaf23.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:888027101875:android:cac84bb088c6a4f5564ec6",
+            "android_client_info": {
+                "package_name": "com.apollo141.alctraz"
+            }
+        },
+        "oauth_client": [{
+                "client_id": "888027101875-im51ioiesfqv0b83v14q79qp9hcfq6fi.apps.googleusercontent.com",
+                "client_type": 1,
+                "android_info": {
+                    "package_name": "com.apollo141.alctraz",
+                    "certificate_hash": "cadc461f39e0d78e2560b99dc3002b28881510bf"
+                }
+            },
+            {
+                "client_id": "888027101875-sg5ajn7ca8idkl8octl8j6825qt42ocs.apps.googleusercontent.com",
+                "client_type": 3
+            }
+        ],
+        "api_key": [{
+            "current_key": "AIzaSyABspVB64grR-fhVEgBLR_FTMu9PRN6F44"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                    "client_id": "888027101875-sg5ajn7ca8idkl8octl8j6825qt42ocs.apps.googleusercontent.com",
+                    "client_type": 3
+                }]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}
