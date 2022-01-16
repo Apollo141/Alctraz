@@ -71,7 +71,7 @@ class LoginScreenState extends State<LoginScreen> {
                   fontSize: 50.0, color: Colors.white, fontFamily: "Signatra"),
             ),
             Padding(
-              padding: EdgeInsets.all(2.0),
+              padding: EdgeInsets.all(16.0),
 
             ),
             Text(
@@ -79,13 +79,14 @@ class LoginScreenState extends State<LoginScreen> {
               style: TextStyle(
                   fontSize: 50.0, color: Colors.white, fontFamily: "Signatra"),
             ),
+
             Text(
               "By Using : (Alctraz)",
               style: TextStyle(
                   fontSize: 50.0, color: Colors.white, fontFamily: "Signatra"),
             ),
             Padding(
-              padding: EdgeInsets.all(2.0),
+              padding: EdgeInsets.all(16.0),
 
             ),
             Text(
@@ -94,7 +95,7 @@ class LoginScreenState extends State<LoginScreen> {
                   fontSize: 30.0, color: Colors.black, fontFamily: "Signatra"),
             ),
             Padding(
-              padding: EdgeInsets.all(2.0),
+              padding: EdgeInsets.all(16.0),
 
             ),
             Text(
@@ -103,7 +104,7 @@ class LoginScreenState extends State<LoginScreen> {
                   fontSize: 30.0, color: Colors.black, fontFamily: "Signatra"),
             ),
             Padding(
-              padding: EdgeInsets.all(2.0),
+              padding: EdgeInsets.all(16.0),
 
             ),
             GestureDetector(
@@ -196,4 +197,5 @@ class LoginScreenState extends State<LoginScreen> {
       });
     }
   }
+
 }

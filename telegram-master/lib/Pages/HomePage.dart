@@ -130,7 +130,7 @@ class HomeScreenState extends State<HomeScreen> {
           shrinkWrap: true,
           children: <Widget>[
             Icon(
-              LineIcons.peopleCarry,
+              LineIcons.search,
               color: Colors.purpleAccent,
               size: 200.0,
             ),
