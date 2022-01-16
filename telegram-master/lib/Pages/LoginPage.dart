@@ -55,10 +55,11 @@ class LoginScreenState extends State<LoginScreen> {
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
                 colors: [
-              Colors.lightBlueAccent,
-              Colors.redAccent,
               Colors.purpleAccent,
-              Colors.amberAccent
+              Colors.deepOrangeAccent,
+               Colors.indigo,
+              Colors.lightBlueAccent
+
             ])),
         alignment: Alignment.center,
         child: Column(
@@ -79,11 +80,14 @@ class LoginScreenState extends State<LoginScreen> {
               style: TextStyle(
                   fontSize: 50.0, color: Colors.white, fontFamily: "Signatra"),
             ),
+            Padding(padding: EdgeInsets.all(16.0)),
 
             Text(
-              "By Using : (Alctraz)",
+              //"By Using : (Alctraz)"
+              "(Alctraz)"
+                ,
               style: TextStyle(
-                  fontSize: 50.0, color: Colors.white, fontFamily: "Signatra"),
+                  fontSize: 60.0, color: Colors.white, fontFamily: "Signatra"),
             ),
             Padding(
               padding: EdgeInsets.all(16.0),
